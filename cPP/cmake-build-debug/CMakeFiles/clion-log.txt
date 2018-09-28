@@ -1,0 +1,32 @@
+/Applications/CLion.app/Contents/bin/cmake/bin/cmake -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - Unix Makefiles" /Users/Macbook/Desktop/coding/cPP
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_C_COMPILER:
+
+    /Library/Developer/CommandLineTools/usr/bin/cc
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CC" or the CMake cache entry CMAKE_C_COMPILER to the full path to
+  the compiler, or to the compiler name if it is in the PATH.
+
+
+CMake Error at CMakeLists.txt:2 (project):
+  The CMAKE_CXX_COMPILER:
+
+    /Library/Developer/CommandLineTools/usr/bin/c++
+
+  is not a full path to an existing compiler tool.
+
+  Tell CMake where to find the compiler by setting either the environment
+  variable "CXX" or the CMake cache entry CMAKE_CXX_COMPILER to the full path
+  to the compiler, or to the compiler name if it is in the PATH.
+
+
+-- Configuring incomplete, errors occurred!
+See also "/Users/Macbook/Desktop/coding/cPP/cmake-build-debug/CMakeFiles/CMakeOutput.log".
+Cannot read /Users/Macbook/Desktop/coding/cPP/cmake-build-debug/CMakeFiles/3.10.3/CMakeCCompiler.cmake
+Cannot read /Users/Macbook/Desktop/coding/cPP/cmake-build-debug/CMakeFiles/3.10.3/CMakeCXXCompiler.cmake
+
+Cannot get compiler information:
+	Cannot run program "/Library/Developer/CommandLineTools/usr/bin/c++" (in directory "/Users/Macbook/Desktop/coding/cPP/cmake-build-debug"): error=2, No such file or directory
