@@ -1,4 +1,5 @@
 #from __future__ import print_function
+import tensorflow as tf
 import keras
 from keras.datasets import cifar10
 from keras.preprocessing.image import ImageDataGenerator
@@ -28,56 +29,40 @@ y_test = keras.utils.to_categorical(y_test, num_classes)
 print("y_train's shape=",y_train.shape)
 model = Sequential()
 
-model.add(Conv2D(32, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(32, (3, 3), padding='same',input_shape=x_train.shape[1:]))
 model.add(Activation('relu'))
-model.add(Conv2D(32, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(32, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(32, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(32, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(48, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(48, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(48, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(48, (3, 3), padding='same',))
+model.add(Activation('relu'))
+model.add(MaxPooling2D(pool_size=(2, 2)))
+model.add(Dropout(0.25))
+model.add(Conv2D(80, (3, 3), padding='same',))
+model.add(Activation('relu'))
+model.add(Conv2D(80, (3, 3), padding='same',))
+model.add(Activation('relu'))
+model.add(Conv2D(80, (3, 3), padding='same',))
+model.add(Activation('relu'))
+model.add(Conv2D(80, (3, 3), padding='same',))
+model.add(Activation('relu'))
+model.add(Conv2D(80, (3, 3), padding='same',))
 model.add(Activation('relu'))
 model.add(MaxPooling2D(pool_size=(2, 2)))
 model.add(Dropout(0.25))
 
-model.add(Conv2D(80, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(128, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(80, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(128, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(80, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(128, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(80, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(128, (3, 3), padding='same',))
 model.add(Activation('relu'))
-model.add(Conv2D(80, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
-model.add(Activation('relu'))
-model.add(MaxPooling2D(pool_size=(2, 2)))
-model.add(Dropout(0.25))
-
-model.add(Conv2D(128, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
-model.add(Activation('relu'))
-model.add(Conv2D(128, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
-model.add(Activation('relu'))
-model.add(Conv2D(128, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
-model.add(Activation('relu'))
-model.add(Conv2D(128, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
-model.add(Activation('relu'))
-model.add(Conv2D(128, (3, 3), padding='same',
-								 input_shape=x_train.shape[1:]))
+model.add(Conv2D(128, (3, 3), padding='same',))
 model.add(Activation('relu'))
 model.add(GlobalMaxPooling2D())
 model.add(Dropout(0.25))
@@ -104,11 +89,11 @@ import matplotlib.pyplot as plt
 import matplotlib.image as mpimg 
 from keras.utils import plot_model
 plot_model(model,to_file='example.png',show_shapes=True)
-lena = mpimg.imread('example.png') # 读取和代码处于同一目录下的 lena.png
-# 此时 lena 就已经是一个 np.array 了，可以对它进行任意处理
+lena = mpimg.imread('example.png') # lena.png
+
 lena.shape #(512, 512, 3)
-plt.imshow(lena) # 显示图片
-plt.axis('off') # 不显示坐标轴
+plt.imshow(lena) # 
+plt.axis('off') # 
 #plt.show()
 # initiate RMSprop optimizer
 opt = keras.optimizers.Adam(lr=0.0001)

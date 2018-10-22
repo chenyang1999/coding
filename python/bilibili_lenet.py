@@ -6,9 +6,10 @@ from keras.utils.np_utils import to_categorical
 from keras.datasets import mnist
 from keras.utils import plot_model
 (X_train,y_train),(X_test,y_test)=mnist.load_data()
+print(X_train.shape)
 #print(X_train.shape,y_train.shape)
-X_train = X_train.reshape(-1, 1, 28, 28)
-X_test = X_test.reshape(-1, 1, 28, 28)
+X_train = X_train.reshape(-1, 28, 28,1)
+X_test = X_test.reshape(-1, 28, 28,1)
 #print(X_train.shape,y_train.shape)
 y_train = to_categorical(y_train, num_classes=10)
 y_test = to_categorical(y_test, num_classes=10)
@@ -39,8 +40,7 @@ lena = mpimg.imread('example.png') # 读取和代码处于同一目录下的 len
 # 此时 lena 就已经是一个 np.array 了，可以对它进行任意处理
 lena.shape #(512, 512, 3)
 plt.imshow(lena) # 显示图片
-plt.axis('off') # 不显示坐标轴
-plt.show()
+plt.axis('off') # 不显示坐标轴plt.show()
 for _ in range(len(model.layers)):
 	print (model.layers[_])
 print("______________________________________")
@@ -48,15 +48,15 @@ print(model.inputs)
 print("______________________________________")
 print(model.outputs)
 print("______________________________________")
-config = model.get_config()
-model = model.from_config(config)
-from keras.models import model_from_json
-json_string = model.to_json()
-print(json_string)
-print("______________________________________")
-model = model_from_json(json_string)
+#config = model.get_config()
+#model = model.from_config(config)
+#from keras.models import model_from_json
+#json_string = model.to_json()
+#print(json_string)
+#print("______________________________________")
+#model = model_from_json(json_string)
 print("train____________")
-model.fit(X_train,y_train,epochs=1,batch_size=128,)
+model.fit(X_train,y_train,epochs=10,batch_size=128,)
 print("test_____________")
 loss,acc=model.evaluate(X_test,y_test)
 print("loss=",loss)

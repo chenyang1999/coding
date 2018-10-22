@@ -1,0 +1,7 @@
+#!/usr/bin/python
+# Class
+# Created by MacBook on 2018/10/5.
+
+class Class:
+	def __init__(self):
+		
