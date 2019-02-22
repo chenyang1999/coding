@@ -27,13 +27,31 @@
       <config projectName="cPP" targetName="cPP" />
     </generated>
   </component>
-  <component name="CMakeSettings">
+  <component name="CMakeSettings" AUTO_RELOAD="true">
     <configurations>
       <configuration PROFILE_NAME="Debug" CONFIG_NAME="Debug" />
     </configurations>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2674fb7f-1db6-423d-8512-4398ded872df" name="Default" comment="" />
+    <list default="true" id="2674fb7f-1db6-423d-8512-4398ded872df" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/Makefile.cmake" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/cPP.dir/hello.cpp.o" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" beforeDir="false" afterPath="$PROJECT_DIR$/cmake-build-debug/CMakeFiles/clion-log.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/hello.cpp" beforeDir="false" afterPath="$PROJECT_DIR$/hello.cpp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/GAN.py" beforeDir="false" afterPath="$PROJECT_DIR$/../python/GAN.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/MNIST-data/.train-images-idx3-ubyte.gz.icloud" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../python/example.png" beforeDir="false" afterPath="$PROJECT_DIR$/../python/example.png" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Enum" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Untitled 5.aux" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Untitled 5.log" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Untitled 5.pdf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/Untitled 5.tex" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/10.4python基础教学/mnist_tf.py" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../wojiubuxinle/wojiu.py" beforeDir="false" />
+    </list>
     <ignored path="$PROJECT_DIR$/cmake-build-debug/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -48,13 +66,21 @@
       <file leaf-file-name="hello.cpp" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/hello.cpp">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="150">
-              <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+            <state relative-caret-position="225">
+              <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
             </state>
           </provider>
         </entry>
       </file>
     </leaf>
+  </component>
+  <component name="FindInProjectRecents">
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
@@ -78,34 +104,21 @@
   <component name="NodePackageJsonFileManager">
     <packageJsonPaths />
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="139" />
-    <option name="y" value="43" />
-    <option name="width" value="1402" />
-    <option name="height" value="907" />
+  <component name="ProjectFrameBounds">
+    <option name="y" value="23" />
+    <option name="width" value="1680" />
+    <option name="height" value="704" />
   </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
     </navigator>
-    <panes>
-      <pane id="Scope" />
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="cPP" type="b2602c69:ProjectViewProjectNode" />
-              <item name="cPP" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-    </panes>
+    <panes />
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="settings.editor.selected.configurable" value="JavaScript.Libraries" />
+    <property name="settings.editor.selected.configurable" value="CPPToolchains" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -140,35 +153,38 @@
       <workItem from="1531793646534" duration="879000" />
       <workItem from="1533190371729" duration="79000" />
       <workItem from="1538739176443" duration="29000" />
+      <workItem from="1541116621498" duration="1244000" />
+      <workItem from="1541119767061" duration="655000" />
+      <workItem from="1545465572897" duration="599000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="987000" />
+    <option name="totallyTimeSpent" value="3485000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="23" width="1680" height="949" extended-state="6" />
+    <frame x="0" y="23" width="1680" height="704" extended-state="0" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="调试" order="7" />
+      <window_info active="true" anchor="bottom" id="Messages" order="7" sideWeight="0.49761903" visible="true" weight="0.32698414" />
       <window_info anchor="bottom" id="CMake" order="7" weight="0.328594" />
       <window_info anchor="bottom" id="TeamCity" order="7" />
-      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.32893157" />
+      <window_info anchor="bottom" id="Event Log" order="7" sideWeight="0.50238097" side_tool="true" visible="true" weight="0.32698414" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49880952" weight="0.32882884" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32995495" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="bottom" id="Find" order="1" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.328594" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Find" order="1" />
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -178,6 +194,27 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/hello.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" column="19" selection-start-line="1" selection-start-column="19" selection-end-line="1" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/hello.cpp">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/hello.cpp">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="150">
@@ -201,8 +238,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/hello.cpp">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="150">
-          <caret line="10" column="1" lean-forward="true" selection-start-line="10" selection-start-column="1" selection-end-line="10" selection-end-column="1" />
+        <state relative-caret-position="225">
+          <caret line="15" column="1" lean-forward="true" selection-start-line="15" selection-start-column="1" selection-end-line="15" selection-end-column="1" />
         </state>
       </provider>
     </entry>

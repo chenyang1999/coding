@@ -9,7 +9,7 @@ numpy
 import tensorflow as tf
 import numpy as np
 import matplotlib.pyplot as plt
-
+np.set_printoptions(threshold = 1e6)
 tf.set_random_seed(1)
 np.random.seed(1)
 
