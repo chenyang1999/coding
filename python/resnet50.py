@@ -11,7 +11,6 @@ from __future__ import print_function
 
 import numpy as np
 import warnings
-
 from keras.layers import Input
 from keras import layers
 from keras.layers import Dense

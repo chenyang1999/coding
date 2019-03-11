@@ -1,0 +1,206 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+          "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="en" lang="en">
+    <meta name="description" content ="CS61A Computer Science 61A: Structure and Interpretation of Computer Programs" />
+    <meta name="keywords" content ="CS61A, Computer Science, CS, 61A, Programming, Amir Kamil, Berkeley, EECS" />
+    <meta name="author" content ="Amir Kamil" />
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+ 
+    <title>CS 61A Spring 2013: Structure and Interpretation of Computer Programs</title>
+ 
+    <!-- Google Analytics -->
+    <script type="text/javascript">
+ 
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-34495187-1']);
+      _gaq.push(['_trackPageview']);
+ 
+      (function() {
+        var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+    </script>
+  </head>
+ 
+  <body>
+    <h1><a href="index.html"><span class="coursename">CS61A</span> Structure and Interpretation of Computer Programs</a>, Spring 2013</h1>
+    <ul class="courseinfo">
+      <li>Instructor: Amir Kamil</li>
+      <li>MWF 2-3 PM in 1 Pimentel or 4-5 PM in 10 Evans</li>
+    </ul>
+    <br/>
+    <hr/>
+    <ul class="navigation">
+      <li><a href="index.html">Main</a></li>
+      <li><a href="about.html">Course Info</a></li>
+      <li><a href="staff.html">Staff</a></li>
+      <li><a href="index.html#schedule">Schedule</a></li>
+      <li><a href="index.html#resources">Resources</a></li>
+      <li><a href="http://www.piazza.com/class">Piazza</a></li>
+      <li><a href="https://inst.eecs.berkeley.edu/~cs61a/sp13/hw/solutions">Solutions</a></li>
+    </ul>
+ 
+    <hr/>
+    <a name="Staff"></a>
+    <h2>Meet the Staff</h2>
+    <h3>Instructor</h3>
+    <table class="staff_table">
+    <tr>
+	<td class="staffer">
+      <img height="150" src="imgs/kamil_head_small.png" alt="Amir Kamil Photo"/>
+      <p> <a href="http://www.cs.berkeley.edu/~kamil/"> Amir Kamil </a> </p>
+      <p> Email: kamil AT cs DOT berkeley DOT edu </p>
+    </td>
+    </tr>
+    </table>
+    <h3> Teaching Assistants </h3>
+    <table class="staff_table">
+    <tr>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/Hamilton.jpg" alt="Hamilton Photo"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-ta">Hamilton Nguyen</a></p>
+      <p> Email: <a href="mailto:cs61a-ta@imail.eecs.berkeley.edu">cs61a-ta</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/JoyJeng_small.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-ti">Joy Jeng</a></p>
+      <p> Email: <a href="mailto:cs61a-ti@imail.eecs.berkeley.edu">cs61a-ti</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/KeeganMann_small.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tk">Keegan Mann</a></p>
+      <p> Email: <a href="mailto:cs61a-tk@imail.eecs.berkeley.edu">cs61a-tk</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/StephenMartinis_small.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tc">Stephen Martinis</a></p>
+      <p> Email: <a href="mailto:cs61a-tc@imail.eecs.berkeley.edu">cs61a-tc</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/AlbertWu_small.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tg">Albert Wu</a></p>
+      <p> Email: <a href="mailto:cs61a-tg@imail.eecs.berkeley.edu">cs61a-tg</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/julia_head.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-te">Julia Oh</a></p>
+      <p> Email: <a href="mailto:cs61a-te@imail.eecs.berkeley.edu">cs61a-te</a> </p>
+    </td>
+ 
+    </tr><tr>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/huang_robert.jpg" alt="Robert Huang"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-th">Robert Huang</a></p>
+      <p>Email: <a href="mailto:cs61a-th@imail.eecs.berkeley.edu">cs61a-th</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/miyashita_mark.jpg" alt="Mark Miyashita"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-td">Mark Miyashita</a></p>
+      <p>Email: <a href="mailto:cs61a-td@imail.eecs.berkeley.edu">cs61a-td</a> </p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/vikram_sharad.jpg" alt="Sharad Vikram"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tj">Sharad Vikram</a></p>
+      <p>Email: <a href="mailto:cs61a-tj@imail.eecs.berkeley.edu">cs61a-tj</a></p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/SoumyaBasu_small.jpg" alt="Soumya"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tf">Soumya Basu</a></p>
+      <p>Email: <a href="mailto:cs61a-tf@imail.eecs.berkeley.edu">cs61a-tf</a></p>
+    </td>
+ 
+    <td class="staffer">
+      <img height="150" src="imgs/RichardHwang_small.jpg" />
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-tb">Richard Hwang</a></p>
+      <p> Email: <a href="mailto:cs61a-tb@imail.eecs.berkeley.edu">cs61a-tb</a> </p>
+    </td>
+    </tr>
+    </table>
+ 
+    <br/>
+ 
+    <h3> Readers </h3>
+    <table class="staff_table">
+    <tr>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/michelle_hwang_small.jpg" alt="Michelle Hwang"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rh">Michelle Hwang</a></p>
+      <p>Email: <a href="mailto:cs61a-rh@imail.eecs.berkeley.edu">cs61a-rh</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/wong_alvin.jpg" alt="Alvin Wong"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rb">Alvin Wong</a></p>
+      <p>Email: <a href="mailto:cs61a-rb@imail.eecs.berkeley.edu">cs61a-rb</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/zhao_yan.jpg" alt="Yan Zhao"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-re">Yan Zhao</a></p>
+      <p>Email: <a href="mailto:cs61a-re@imail.eecs.berkeley.edu">cs61a-re</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/shankar_vaishaal.jpg" alt="Vaishaal"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rk">Vaishaal Shankar</a></p>
+      <p>Email: <a href="mailto:cs61a-rk@imail.eecs.berkeley.edu">cs61a-rk</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/lori_krakirian_small.jpg" alt="Lori Krakirian"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rc">Lori Krakirian</a> </p>
+      <p>Email: <a href="mailto:cs61a-rc@imail.eecs.berkeley.edu">cs61a-rc</a> </p>
+    </td>
+    </tr>
+ 
+    <tr>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/james_sha.jpg" alt="James Sha"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rf">James Sha</a></p>
+      <p>Email: <a href="mailto:cs61a-rf@imail.eecs.berkeley.edu">cs61a-rf</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/jack_siyuan_he_small.jpg" alt="Jack He"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rd">Siyuan (Jack) He</a></p>
+      <p>Email: <a href="mailto:cs61a-rd@imail.eecs.berkeley.edu">cs61a-rd</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/jian_qiao_small.jpg" alt="Jian Qiao"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rg">Jian Qiao</a> </p>
+      <p>Email: <a href="mailto:cs61a-rg@imail.eecs.berkeley.edu">cs61a-rg</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/Iris_Wang_head.png" alt="Iris Wang"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-ri">Iris Wang</a> </p>
+      <p>Email: <a href="mailto:cs61a-ri@imail.eecs.berkeley.edu">cs61a-ri</a> </p>
+    </td>
+    <td class="staffer">
+      <img height="150" src="imgs/readers/chenyang_yuan_small.jpg" alt="Chenyang Yuan"/>
+      <p> <a href="http://inst.eecs.berkeley.edu/~cs61a-rj">Chenyang Yuan</a> </p>
+      <p>Email: <a href="mailto:cs61a-rj@imail.eecs.berkeley.edu">cs61a-rj</a> </p>
+    </td>
+    </tr>
+    </table>
+ 
+    <br/>
+ 
+    <!--<a name="schedule"></a> -->
+    
+    <h2>Scheduled Office Hours</h2>
+ 
+    <iframe src="https://www.google.com/calendar/embed?showNav=0&amp;showPrint=0&amp;showTabs=0&amp;showCalendars=0&amp;showTz=0&amp;mode=WEEK&amp;height=600&amp;wkst=1&amp;bgcolor=%23ccccff&amp;src=hkt8c9n31nvoibe9hdqli1scdk%40group.calendar.google.com&amp;color=%2329527A&amp;ctz=America%2FLos_Angeles" style=" border-width:0 " width="1200" height="600" frameborder="0" scrolling="no"></iframe>
+    
+ 
+       <div class="footer">
+      <a href="http://kernest.com">Fonts by Kernest</a>
+    </div>
+  </body>
+</html>
