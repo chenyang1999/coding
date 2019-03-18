@@ -1,7 +1,7 @@
 #include <iostream>
 #include <algorithm>
 using namespace std;
-#define MAX 1400
+#define MAX 1400ZZZZ
 int dp[MAX][MAX],G[MAX][MAX];
 
 int getLargetSquare(int H,int W){
