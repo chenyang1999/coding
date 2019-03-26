@@ -27,19 +27,20 @@ public class N_Queen {
 		//从第一列开始放值，然后判断是否和本行本列本斜线有冲突，如果OK，就进入下一行的逻辑
 		for (int i = 0; i < max; i++) {
 			array[n] = i;
-			if (panduan(n)) {
+			if (panduan(n)==0) {
 				check(n + 1);
 			}
 		}
 	}
  
-	private boolean panduan(int n) {
+	private int  panduan(int n) {
+		int cnt=0;
 		for (int i = 0; i < n; i++) {
 			if (array[i] == array[n] || Math.abs(n - i) == Math.abs(array[n] - array[i])) {
-				return false;
+				cnt++;
 			}
 		}
-		return true;
+		return cnt;
 	}
  
 	private void print(int cnt)  {
