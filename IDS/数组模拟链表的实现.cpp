@@ -5,7 +5,7 @@ using namespace std;
 
 int linklst_data[MAXN];
 int linklst_point[MAXN];
-
+
 int head =-1;
 void del_by_data(int del_del_data){
 	
