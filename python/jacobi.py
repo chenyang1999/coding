@@ -21,7 +21,7 @@ def Jacobi(mx,mr,n=100,c=0.0001):
 			for i in range(len(x)):
 				lc.append(abs(x[i][0]-nx[i][0]))
 			if max(lc) < c:
-				print(count)
+				print("迭代次数",count)
 				return nx #当误差满足要求时 返回计算结果
 			x = nx
 			count = count + 1
