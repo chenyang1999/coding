@@ -1,7 +1,7 @@
 #include <iostream> 
 using namespace std;
 /* function to sort arr using shellSort */
-#define N 100000000
+#define N 10000000
 int arr[N];
 #include <time.h>
 void shellSort(int arr[], int n) 

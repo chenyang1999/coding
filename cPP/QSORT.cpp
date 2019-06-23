@@ -4,7 +4,7 @@ using namespace std;
 #include <time.h>
 
 #include <algorithm>
-#define N 100000000
+#define N 10000000
 int arr[N];
 void swapElement(int& a,int& b)
 {
