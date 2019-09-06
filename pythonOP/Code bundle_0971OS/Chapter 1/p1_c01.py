@@ -41,7 +41,7 @@ class FaceCard( Card ):
 # ::
 
 d1= [ AceCard('A', '♠'), NumberCard('2','♠'), NumberCard('3','♠'), ]
-
+print(d1)
 # A simple class from which we can build manifest constants
 # ::
 
@@ -61,7 +61,7 @@ Club, Diamond, Heart, Spade = Suit('Club','♣'), Suit('Diamond','♦'), Suit('H
 # ::
 
 d2 = [ AceCard('A', Spade), NumberCard('2', Spade), NumberCard('3', Spade), ]
-
+print(d2)
 # Factory Function
 # ::
 
@@ -77,7 +77,7 @@ def card( rank, suit ):
 # ::
 
 deck = [ card(rank,suit) for rank in range(1,14) for suit in (Club, Diamond, Heart, Spade) ]
-
+print(deck)
 # Here's a less desirable form of the factory function.
 # It harbors a hidden bug because the else assumes too much.
 # ::
